@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_products",
+  "info": {
+    "singularName": "user-product",
+    "pluralName": "user-products",
+    "displayName": "userProduct",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productID": {
+      "type": "integer"
+    }
+  }
+}

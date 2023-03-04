@@ -1,0 +1,29 @@
+.newproducts{
+    padding: 20px;
+    margin: 100px 0;
+    .NewProductsTop{
+        h1{
+            margin-bottom: 30px;
+            font-weight: 500;
+            position: relative;
+            padding-bottom:10px ;
+            &::after{
+                content: '';
+                display: inline-block;
+                position: absolute;
+                height: 3px;
+                width: 7%;
+                background: orangered;
+                bottom:0;
+                left: 0;
+            }
+        }
+    }
+    .NewProductsButtom{
+        display: flex; 
+        flex-wrap: wrap;
+        row-gap: 30px;
+        column-gap: 18px;
+        justify-content:center;
+    }
+}

@@ -1,0 +1,122 @@
+.product {
+  display: flex;
+  height: 100vh;
+  .productPhotos {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    .previeweImages {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      img {
+        width: 8rem;
+      }
+    }
+    .mainImages {
+      margin: auto 0;
+      img {
+        width: 28rem;
+        height: 35rem;
+      }
+    }
+  }
+  .productContent {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .detailsContent {
+      .rates {
+        margin: 10px 0;
+      }
+      .price {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+      }
+      .description {
+        color: rgb(94, 94, 94);
+      }
+    }
+    .productInfo {
+      .inStock{
+        margin-bottom: 15px;
+        font-size: 1rem;
+        font-weight: 600;
+        span {
+          color: rgb(145, 145, 145);
+          font-weight: 500;
+          margin-left: 10px;
+        }
+      }
+      .categoriesTitle {
+        margin-bottom: 15px;
+        font-size: 1rem;
+        font-weight: 600;
+        .categoriesName {
+          color: rgb(145, 145, 145);
+          margin-left: 10px;
+          font-weight: 500;
+        }
+      }
+
+      .productSize {
+        padding: 20px 0;
+        display: flex;
+        gap: 5px;
+        span {
+          border: 1px solid rgb(220, 220, 220);
+          border-radius: 2px;
+          padding: 2px 5px;
+          cursor: pointer;
+        }
+        .selected {
+          background: orangered;
+          color: white;
+          border: none;
+        }
+      }
+    }
+    .addToCart {
+      display: flex;
+      align-items: center;
+      .quantity {
+        span {
+          border: 1px solid gray;
+          background: inherit;
+          padding: 5px 15px;
+          font-size: 1.1rem;
+        }
+        input {
+          border: 1px solid gray;
+          background: inherit;
+          padding: 5px 15px;
+          font-size: 1.1rem;
+        }
+      }
+      .addToCartButton {
+        button {
+          cursor: pointer;
+          padding: 5px 15px;
+          font-size: 1.1rem;
+          border: 1px solid gray;
+          background: orangered;
+          color: white;
+          margin-left: 15px;
+        }
+      }
+      .wishlist {
+        display: grid;
+        place-items: center;
+        margin-left: 10px;
+        svg {
+          width: 2rem;
+          stroke-width: 0.5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

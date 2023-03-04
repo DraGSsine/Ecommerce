@@ -1,0 +1,87 @@
+.navbar {
+  margin-bottom: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  .NavBarTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    .lang-curncey {
+      flex: 1;
+      select {
+        background-color: #ffffff;
+        border: 1px solid #dcdcdc;
+        font-size: 16px;
+        outline: none;
+        padding: 5px;
+        width: 80px;
+        margin: 0 5px;
+      }
+
+      select option {
+        background-color: #ffffff;
+        color: #333333;
+        font-size: 16px;
+        padding: 12px;
+        outline: none;
+      }
+    }
+    .logo img {
+      flex: 1;
+      width: 80px;
+    }
+  }
+  .navlist {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    .routes {
+      display: flex;
+      list-style: none;
+      gap: 15px;
+      li a{
+        text-decoration: none;
+        color: #333333;
+      }
+    }
+    .navbar-icons {
+      display: flex;
+      list-style: none;
+      gap: 10px;
+      li {
+        width: 25px;
+        cursor: pointer;
+      }
+      .bag{
+        position: relative;
+        span{
+            position: absolute;
+            background-color: orangered;
+            padding: 0px 4px;
+            right:-10px;
+            border-radius:100%;
+            top: -7px;
+            width: 20px;
+            display: grid;
+            place-items:center;
+            color: #ffffff;
+        }
+      }
+    }
+  }
+  .NavBarButtom {
+    display: flex;
+    justify-content:center;
+    .category {
+      display: flex;
+      list-style: none;
+      gap: 15px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  }
+}

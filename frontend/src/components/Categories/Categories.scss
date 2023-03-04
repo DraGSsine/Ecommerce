@@ -1,0 +1,92 @@
+.categories{
+    display: grid;
+    gap: 10px;
+    height: 80vh;
+    grid-template-areas:
+
+    'womenCategory womenCategory kidsCategory menCategory'
+    'womenCategory womenCategory cosmeticsCategory accessoriesCategory'
+    
+    
+    ;
+    img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .category{
+        position: relative;
+        .womenfashion{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            button{
+                width: fit-content;
+                margin-top: 20px;
+                font-size: 2rem;
+                background: inherit;
+                border: none;
+                border-bottom: 2px solid orangered;
+                padding: 5px;
+                cursor: pointer;
+            }
+            h1{
+                font-size: 2.5rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            span{
+                color: rgb(57, 57, 57);
+                width: 350px;
+                margin: 10px 0;
+            }
+        }
+        .categoryInfo{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            button{
+                width: fit-content;
+                margin-top: 20px;
+                font-size: 1.1rem;
+                background: inherit;
+                border: none;
+                border-bottom: 2px solid orangered;
+                padding: 5px;
+                cursor: pointer;
+            }
+            h1{
+                font-size: 1.5rem;
+            }
+            span{
+                color: rgb(57, 57, 57);
+            }
+        }
+    }
+    .womenCategory{
+        grid-area: womenCategory;
+    }
+    .kidsCategory{
+        grid-area:kidsCategory ;
+
+    }
+    .menCategory{
+        grid-area:menCategory ;
+
+    }
+    .accessoriesCategory{
+        grid-area: accessoriesCategory;
+
+    }
+    .cosmeticsCategory{
+        grid-area: cosmeticsCategory;
+
+    }
+}

@@ -1,0 +1,98 @@
+.cart-layer{
+    background: #000000e2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    .cart{
+        animation: animation1 1s ease 0s  normal forwards;
+        padding: 30px 10px;
+        background: #ffffff;
+        width: 32%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        .cart-head{
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            span{
+                text-transform: capitalize;
+                font-size: 1.2rem;
+            }
+            button{
+                cursor: pointer;
+                width: 2rem;
+                background-color: inherit;
+                border: none;
+                margin-right: 30px;
+            }
+        }
+        .cart-products{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            overflow-y: scroll;
+            height: 18rem;
+        }
+        .cart-buttom{
+            padding: 30px;
+                .total{
+                    p{
+                        font-size: 0.9rem;
+                        color: rgb(102, 102, 102);
+                        margin: 10px 0;
+                    }
+                    .subtotal{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                   
+                }
+                .chekout{
+                    cursor: pointer;
+                    width: 100%;
+                    padding: 10px;
+                    color: #ffffff;
+                    font-size: 1.1rem;
+                    background-color: orangered;
+                    font-weight: 500;
+                    border-radius: 5px;
+                    border: none;
+                    margin-top: 20px;
+                }
+                .continue-shoping{
+                    h3{
+                        cursor: pointer;
+                        color: gray;
+                        margin: 10px 0;
+                        font-weight: 500;
+                        display: flex;
+                        gap: 6px;
+                        a{
+                            color: orangered;
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            svg{
+                                width: 25px;
+                                stroke: orangered;
+                            }
+                        }
+                    }
+                }
+        }
+        
+    }
+}
+@keyframes animation1 {
+    0% {
+      transform: translateX(400px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+    
+  }

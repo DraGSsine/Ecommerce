@@ -1,0 +1,27 @@
+.sidebar{
+    width: 20%;
+    padding: 20px;
+    .Filter-by-category{
+        display: grid;
+        gap: 10px;
+        padding-bottom: 20px;
+        div{
+            display: flex;
+            gap: 7px;
+        }
+    }
+    .Filter-by-price{
+        .range{
+            padding: 20px 0;
+        }
+    }
+    .Sort-by{
+        display: grid;
+        gap: 10px;
+        div{
+            input{
+                margin-right: 7px;
+            }
+        }
+    }
+}

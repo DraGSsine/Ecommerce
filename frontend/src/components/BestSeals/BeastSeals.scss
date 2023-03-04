@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.best_seals_product{
+    width: 90vw;
+    margin: 100px auto;
+    .best_seals_product_header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.best_seals_product_footer{
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
