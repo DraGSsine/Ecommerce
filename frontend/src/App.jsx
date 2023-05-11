@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { createBrowserRouter, RouterProvider,Outlet } from 'react-router-dom'
 import {
-  Home, Product, Products,About,Contact
+  Home, Product, Products
 } from './pages'
 import {Navbar , Footer} from './components'
 function App() {
@@ -31,14 +31,6 @@ function App() {
           {
             path: '/product/:id',
             element: <Product />
-          },
-          {
-            path: '/about',
-            element: <About />
-          },
-          {
-            path: '/Contact',
-            element: <Contact />
           }
         ]
       },
