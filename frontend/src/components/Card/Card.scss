@@ -1,6 +1,6 @@
 
 .card{
-    width: 280px;
+    width: 300px;
     .product {
         display: flex;
         position: relative;
@@ -28,6 +28,10 @@
         gap: 2px;
         .name{
             font-size: 1.3rem;
+            padding: 15px 0;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            height: 60px;
         }
         .price{
             display: flex;
