@@ -44,7 +44,7 @@ function Footer() {
 
       <div className='footer-buttom'>
         <div className='Copyright '>
-          <h5>Copyright © 2022 Suruchi . All Rights Reserved.Design By Suruchi</h5>
+          <h5>Copyright © 2022 Ouchen . All Rights Reserved.Design By Ouchen</h5>
         </div>
         <div className='payment'>
           <img src={paymentsmetoth} />

@@ -3,7 +3,6 @@ import './Card.scss'
 import { Star } from '../../assets/icons/icons'
 import { nanoid } from '@reduxjs/toolkit'
 function Card({ data }) {
-    console.log(data)
     return (
         <div className='card'>
             <div className='product'>
