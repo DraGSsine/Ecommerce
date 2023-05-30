@@ -25,7 +25,7 @@ function Categories() {
                 <img src={kidsCategoryImage} />
                 <div className='categoryInfo'>
                     <h1>kid's Fashion</h1>
-                    <span>308 items</span>
+                    <span>2 items</span>
                     <Link to='products/kids'>
 
                         <button>Shop now</button>
@@ -37,7 +37,7 @@ function Categories() {
                 <img src={menCategoryImage} />
                 <div className='categoryInfo'>
                     <h1>Men's Fashion</h1>
-                    <span>198 items</span>
+                    <span>6 items</span>
                     <Link to='products/men'>
 
                         <button>Shop now</button>
@@ -49,7 +49,7 @@ function Categories() {
                 <img src={accessoriesCategoryImage} />
                 <div className='categoryInfo'>
                     <h1>accessories</h1>
-                    <span>78 items</span>
+                    <span>2 items</span>
                     <Link to='products/accessories'>
 
                         <button>Shop now</button>
@@ -62,7 +62,7 @@ function Categories() {
                 <img src={cosmeticsCategoryImage} />
                 <div className='categoryInfo'>
                     <h1>kcosmetics</h1>
-                    <span>127 items</span>
+                    <span>0 items</span>
                     <Link to='products/cosmetics'>
                         <button>Shop now</button>
                     </Link>
