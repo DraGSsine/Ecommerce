@@ -52,7 +52,7 @@ function Navbar() {
               className="bag"
             >
               <BagIcon />
-              <span className={products?.length&&"Quantity"} >{products?.length&&products?.length}</span>
+              <span className={products?.length&&"Quantity"} >{products?.length>0&&products?.length}</span>
             </li>
           </ul>
         </div>
