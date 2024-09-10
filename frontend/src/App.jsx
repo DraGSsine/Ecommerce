@@ -4,6 +4,7 @@ import {
   Home, Product, Products
 } from './pages'
 import {Navbar , Footer} from './components'
+
 function App() {
   const Layout = () => {
     return (
